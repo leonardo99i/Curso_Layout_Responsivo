@@ -1,0 +1,13 @@
+.destaques{
+    background-color: var(--azul-claro);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.destaques__titulo{
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+}
