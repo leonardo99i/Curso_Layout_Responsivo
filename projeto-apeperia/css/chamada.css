@@ -26,3 +26,10 @@
 .chamada__botao{
     width: 100%;
 }
+
+
+@media (min-width: 768px){
+    .chamada__texto{
+        max-width: 600px;
+    }
+}
