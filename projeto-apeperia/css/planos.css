@@ -65,6 +65,7 @@
 .cartao__texto {
     color: var(--fonte-cinza);
     line-height: 28px;
+    text-align: center;
 }
 
 .cartao__botao {
@@ -108,5 +109,17 @@
 @media screen and (min-width: 768px){
     .cartao{
         max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .planos__cartoes {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .cartao {
+        max-width: 300px;
     }
 }
